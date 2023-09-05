@@ -1,5 +1,10 @@
 # Crypto_log
 
+This is a project for consistently posting on facebook by taking the latest news from reddit.
+
+
+
+
 Privacy Policy
 
 Last updated: 03.04.2023
