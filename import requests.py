@@ -50,8 +50,7 @@ if top_post:
     print(f"Is external URL? {is_external_url(top_post['url'])}")
 
     if is_external_url(top_post['url']):
-        access_token = 'EAADEZAC4DDHUBAFPANBzDjq5Rpixtjgm3EIZARpRpLqIhuqdWmMRMf8VSWosrx4OZBOWIMZBtIZAnIvkQR2oOlbZBrWrZAJHzFhQoM1e9QfR3bKZBr0HZBCGrcxpzkQwdgTC4QEZASKgmCDxCR6R4rvBdApMfNpZB9EtP7UFhHn7xWMubkStsdrB1ZCNtnUEfi3Mzwhs2ZCxnNoKvZAx735YsVxUUU'
+        access_token = 'EAADEZAC4DDHUBAIVtD9MS39ew9KnEVj2rIz1gjIwdpe7fBopVuxRqqmFcjDl120JZABzZA1zPMO2qb4NmZA6Tmoof5aLM7wFYGb1zQHOK5gwfT1aD9clxydfqZCPFotZBXZB9J8o4s6v2MBEn5Pv2nIHykzsioaLyLPwmA7jtjtZClpRACe6W3eCy81S4e3RdZCLLGFPDndPzHNQ6JeAYQSELYEtDaDjzCaZBo9ZBr6AFb7ipDrHt7TCeBB'
         group_id = '723683658105357'
         message = top_post['url']
-
         response = post_to_facebook_group(access_token, group_id, message)
